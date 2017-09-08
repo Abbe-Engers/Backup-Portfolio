@@ -56,7 +56,7 @@ a::after {
 }
 
 .button {
-  margin-top: 300px;
+  margin-top: 150px;
   font-family: "Lato";
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,4 +86,10 @@ a::after {
 
 .welkom {
   #
+}
+
+.tekstvak {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 20px;
 }
