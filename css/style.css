@@ -100,7 +100,7 @@ a::after {
 .kaart {
   background: #fff;
   border-radius: 1%;
-  display: inline-block;
+  display: inline-table;
   height: 500px;
   margin: 1rem;
   position: relative;
