@@ -4,10 +4,11 @@ body {
   text-align: center;
 }
 
-a {
+button {
   position: relative;
   display: inline-block;
   padding: 1.2em 2em;
+  border: none;
   text-decoration: none;
   text-align: center;
   cursor: pointer;
@@ -18,7 +19,7 @@ a {
   color: white;
 }
 
-a::before {
+button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -38,11 +39,11 @@ a::before {
           transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
 }
 
-a:hover::before {
+button:hover::before {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-a::after {
+button::after {
   position: relative;
   display: inline-block;
   content: attr(data-title);
@@ -122,4 +123,29 @@ h2 {
 
 p {
   margin-left: 8%;
+}
+
+.link {
+  font-size: 200%;
+  text-decoration: none;
+  margin-left: 8%;
+  color: #ff3535
+}
+
+.link:visited {
+    color: #7a7a7a;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ff5050;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link:active {
+    color: #050505;
+    background-color: transparent;
+    text-decoration: none;
 }
