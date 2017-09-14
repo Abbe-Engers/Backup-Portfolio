@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 body {
   font-family: "Lato";
   background: #e2e1e0;
@@ -106,7 +110,7 @@ button::after {
   margin: 1rem;
   position: relative;
   width: 25%;
-  margin-bottom: 9%;
+  margin-bottom: 5%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   font-size: 80%;
@@ -148,4 +152,12 @@ p {
     color: #050505;
     background-color: transparent;
     text-decoration: none;
+}
+
+.Copy-bar {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+  font-size: 60%;
 }
