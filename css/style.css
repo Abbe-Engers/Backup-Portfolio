@@ -1,5 +1,5 @@
 html {
-  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 body {
@@ -177,3 +177,25 @@ p {
   font-size: 80%;
   text-align: left;
 }
+
+.credly__user {
+  line-height: initial;
+  height: 500px;
+  overflow: auto;
+  font-size: 6px;
+}
+
+.credly__user > div > div {
+  background-color: white !important;
+  !important
+}
+
+.credly__user a {
+   width: 100px !important;
+   height: 182.3px !important;
+}
+
+.credly__user a img {
+   width: 80px;
+   height: 80px;
+ }
