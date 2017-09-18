@@ -181,7 +181,6 @@ p {
 
 .credly__user > div > div {
   background-color: white !important;
-  !important
 }
 
 .credly__user a {
@@ -196,6 +195,7 @@ p {
 
 .kaart-anker {
   color: #e2e1e0;
+  margin-top: 20%;
 }
 
 .terug-button {
