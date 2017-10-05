@@ -10,6 +10,29 @@ html {
             cursor: pointer;
 }
 
+body::-webkit-scrollbar {
+    width: 0.5%;
+    padding: 2%;
+}
+
+body::-webkit-scrollbar-track {
+    background: tranparant;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 10%;
+  background: -webkit-linear-gradient(315deg, #ff3535, #ff3535);
+  background: linear-gradient(135deg, #ff3535, #404040);
+}
+
+.scrolldiv {
+  position: absolute;
+  height: 135em;
+}
+
 button {
   color: white;
   position: relative;
